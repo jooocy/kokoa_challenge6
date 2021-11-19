@@ -1,0 +1,32 @@
+.singer-info {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singer-info__avatar {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+}
+
+.singer-info__text {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.singer-info__text h2:first-child {
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+  color: var(--h2-color);
+  text-shadow: var(--text-shadow);
+}
+
+.singer-info__text h5:last-child {
+  margin-top: 15px;
+  font-size: var(--h5-font-size);
+  font-weight: var(--h5-font-weight);
+  opacity: var(--h5-opacity);
+}

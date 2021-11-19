@@ -1,0 +1,32 @@
+.option-btns {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-btns div:nth-child(n) {
+  width: 120px;
+  height: 45px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.option-btns div:nth-child(1) {
+  background-color: #222222;
+  color: rgba(245, 245, 245, 0.75);
+}
+
+.option-btns div:nth-child(2) {
+  border: 1px rgba(182, 182, 182, 0.2);
+  box-shadow: 0 0 15px rgba(182, 182, 182, 0.2);
+  color: rgb(154, 154, 163);
+  font-size: 18px;
+}
+.option-btns__heart i {
+  color: rgba(0, 0, 0, 0.904);
+  margin-right: 5px;
+}

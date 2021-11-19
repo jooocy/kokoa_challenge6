@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./variable.css";
+
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+/* Component */
+@import "./component/top-bar.css";
+@import "./component/option-btns.css";
+@import "./component/play-controller.css";
+
+/* Screens */
+@import "./screens/singer-info.css";
+@import "./screens/play-list.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  height: 950px;
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: solid 1px black;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 370px;
+  height: 800px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  border-radius: 30px;
+  position: relative;
+}

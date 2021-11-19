@@ -1,0 +1,51 @@
+.play-list {
+  margin: 45px 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play-list__song {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.play-list__song__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-list__song__column__album-cover {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+.play-list__song__column__text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -3px;
+}
+.play-list__song__column__text h7:first-child {
+  font-size: 13px;
+  font-weight: var(--h5-font-weight);
+  opacity: var(--h5-opacity);
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+
+.play-list__song__column__text h3:last-child {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.75;
+  text-shadow: #363636 0px 0 0.5px;
+  margin-top: 3px;
+  letter-spacing: 1.8px;
+  margin-top: 3px;
+}
+
+.play-list__song__column__icon {
+  opacity: var(--h5-opacity);
+}
