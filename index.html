@@ -1,133 +1,164 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>You Are Awesome!</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <main>
-      <header class="top-bar">
-        <i class="fas fa-arrow-left fa-lg"></i>
-        <i class="fas fa-search fa-lg"></i>
-      </header>
 
-      <section class="singer-info">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>You Are Awesome!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main class="list-menu">
+    <header class="list-menu__top-bar">
+      <i class="fas fa-arrow-left fa-lg"></i>
+      <i class="fas fa-search fa-lg"></i>
+    </header>
+
+    <section class="list-menu__singer-info">
+      <img
+        src="https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:best/heeey3d28riqazrxdyqs_ijvnew/the-evolution-of-tyler-the-designer.jpg"
+        class="list-menu__singer-info__avatar" />
+      <div class="list-menu__singer-info__text">
+        <h2 class="list-menu__singer-info__text__name">Tyler, The Creator</h2>
+        <h5 class="list-menu__singer-info__text__genre">Rap, Hip-Hop</h5>
+      </div>
+    </section>
+
+    <!-- option buttons -->
+    <div class="list-menu__option-btns">
+      <div class="list-menu__option-btns__shuffle">Shuffle</div>
+      <div class="list-menu__option-btns__heart">
+        <i class="fas fa-heart"></i>
+        <span>212 971</span>
+      </div>
+    </div>
+
+    <!-- play list -->
+    <section class="list-menu__play-list">
+      <article class="list-menu__play-list__song">
+        <div class="list-menu__play-list__song__column">
+          <div class="list-menu__play-list__song__column__album-cover">
+            <img
+              src="https://lh3.googleusercontent.com/_c4JMCiDeaC2RRfShXddOuIV_A7oCL4m1R6-YK-3TDlsYgNQTXwxV0f-TTJrsO1StMt07qW3O6XNPSNt=w60-h60-l90-rj" />
+          </div>
+          <div class="list-menu__play-list__song__column__text">
+            <h7>Tyler, the Creator</h7>
+            <h3>EARFQUAKE</h3>
+          </div>
+        </div>
+        <div class="list-menu__play-list__song__column">
+          <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
+        </div>
+      </article>
+      <article class="list-menu__play-list__song">
+        <div class="list-menu__play-list__song__column">
+          <div class="list-menu__play-list__song__column__album-cover">
+            <img
+              src="https://lh3.googleusercontent.com/SSCyQ5wOePg3hVVSHc8AzdIgXZmTXN6mtn0EC7LmCftm8eNRMqA3cpOXnhgPaVe12loh0LFW8QKJY0zV=w60-h60-l90-rj" />
+            <i class="fas fa-stream"></i>
+          </div>
+          <div class="list-menu__play-list__song__column__text">
+            <h7>Tyler, the Creator</h7>
+            <h3>NOVEMBER</h3>
+          </div>
+        </div>
+        <div class="list-menu__play-list__song__column">
+          <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
+        </div>
+
+        </div>
+      </article>
+      <article class="list-menu__play-list__song">
+        <div class="list-menu__play-list__song__column">
+          <div class="list-menu__play-list__song__column__album-cover">
+            <img
+              src="https://lh3.googleusercontent.com/SSCyQ5wOePg3hVVSHc8AzdIgXZmTXN6mtn0EC7LmCftm8eNRMqA3cpOXnhgPaVe12loh0LFW8QKJY0zV=w60-h60-l90-rj" />
+          </div>
+          <div class="list-menu__play-list__song__column__text">
+            <h7>Tyler, the Creator</h7>
+            <h3>911</h3>
+          </div>
+        </div>
+        <div class="list-menu__play-list__song__column">
+          <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
+        </div>
+      </article>
+      <article class="list-menu__play-list__song">
+        <div class="list-menu__play-list__song__column">
+          <div class="list-menu__play-list__song__column__album-cover">
+            <img
+              src="https://lh3.googleusercontent.com/u2nDwLpDigjlqdUMIZCI5PbvNqDCPOz9BAaRTRhozjoqFT0knuFYoV78pWlOh8iKCPQALCQikKg1YRkCOA=w60-h60-l90-rj" />
+          </div>
+          <div class="list-menu__play-list__song__column__text">
+            <h7>Tyler, the Creator</h7>
+            <h3>WOLF</h3>
+          </div>
+        </div>
+        <div class="list-menu__play-list__song__column">
+          <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
+        </div>
+      </article>
+    </section>
+
+    <!-- CONTROLLER -->
+    <div class="list-menu__play-controller">
+      <div class="list-menu__play-controller__song-info">
+        <h5>Tyler, the Creator</h5>
+        <h3>NOVEMBER</h3>
+      </div>
+      <div class="list-menu__play-controller__btns">
+        <i class="fas fa-step-backward"></i>
+        <i class="fas fa-pause"></i>
+        <i class="fas fa-step-forward"></i>
+      </div>
+    </div>
+  </main>
+
+  <main class="play-now">
+    <header class="play-now__top-bar">
+      <i class="fas fa-arrow-left fa-lg"></i>
+      <i class="fas fa-ellipsis-v fa-lg"></i>
+    </header>
+
+    <section class="play-now__song-info">
+      <div class="play-now__song-info__cover">
         <img
-          src="https://thefader-res.cloudinary.com/private_images/w_840,c_limit,f_auto,q_auto:best/heeey3d28riqazrxdyqs_ijvnew/the-evolution-of-tyler-the-designer.jpg"
-          class="singer-info__avatar"
-        />
-        <div class="singer-info__text">
-          <h2 class="singer-info__text__name">Tyler, The Creator</h2>
-          <h5 class="singer-info__text__genre">Rap, Hip-Hop</h5>
-        </div>
-      </section>
-
-      <!-- option buttons -->
-      <div class="option-btns">
-        <div class="option-btns__shuffle">Shuffle</div>
-        <div class="option-btns__heart">
-          <i class="fas fa-heart"></i>
-          <span>212 971</span>
-        </div>
+          src="https://lh3.googleusercontent.com/SSCyQ5wOePg3hVVSHc8AzdIgXZmTXN6mtn0EC7LmCftm8eNRMqA3cpOXnhgPaVe12loh0LFW8QKJY0zV=w544-h544-l90-rj">
       </div>
-
-      <!-- play list -->
-      <section class="play-list">
-        <article class="play-list__song">
-          <div class="play-list__song__column">
-            <img
-              src="https://lh3.googleusercontent.com/_c4JMCiDeaC2RRfShXddOuIV_A7oCL4m1R6-YK-3TDlsYgNQTXwxV0f-TTJrsO1StMt07qW3O6XNPSNt=w60-h60-l90-rj"
-              class="play-list__song__column__album-cover"
-            />
-
-            <div class="play-list__song__column__text">
-              <h7>Tyler, the Creator</h7>
-              <h3>EARFQUAKE</h3>
-            </div>
-          </div>
-          <div class="play-list__song__column">
-            <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
-          </div>
-        </article>
-        <article class="play-list__song">
-          <div class="play-list__song__column">
-            <img
-              src="https://lh3.googleusercontent.com/SSCyQ5wOePg3hVVSHc8AzdIgXZmTXN6mtn0EC7LmCftm8eNRMqA3cpOXnhgPaVe12loh0LFW8QKJY0zV=w60-h60-l90-rj"
-              class="play-list__song__column__album-cover"
-            />
-
-            <div class="play-list__song__column__text">
-              <h7>Tyler, the Creator</h7>
-              <h3>NOVEMBER</h3>
-            </div>
-          </div>
-          <div class="play-list__song__column">
-            <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
-          </div>
-          <div class="play-list__song__stream">
-            <div class="play-list__song__stream__box">
-              <i class="fas fa-stream"></i>
-            </div>
-          </div>
-        </article>
-        <article class="play-list__song">
-          <div class="play-list__song__column">
-            <img
-              src="https://lh3.googleusercontent.com/SSCyQ5wOePg3hVVSHc8AzdIgXZmTXN6mtn0EC7LmCftm8eNRMqA3cpOXnhgPaVe12loh0LFW8QKJY0zV=w60-h60-l90-rj"
-              class="play-list__song__column__album-cover"
-            />
-
-            <div class="play-list__song__column__text">
-              <h7>Tyler, the Creator</h7>
-              <h3>911</h3>
-            </div>
-          </div>
-          <div class="play-list__song__column">
-            <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
-          </div>
-        </article>
-        <article class="play-list__song">
-          <div class="play-list__song__column">
-            <img
-              src="https://lh3.googleusercontent.com/u2nDwLpDigjlqdUMIZCI5PbvNqDCPOz9BAaRTRhozjoqFT0knuFYoV78pWlOh8iKCPQALCQikKg1YRkCOA=w60-h60-l90-rj"
-              class="play-list__song__column__album-cover"
-            />
-
-            <div class="play-list__song__column__text">
-              <h7>Tyler, the Creator</h7>
-              <h3>WOLF</h3>
-            </div>
-          </div>
-          <div class="play-list__song__column">
-            <i class="fas fa-ellipsis-v play-list__song__column__icon"></i>
-          </div>
-        </article>
-      </section>
-
-      <!-- CONTROLLER -->
-      <div class="play-controller">
-        <div class="play-controller__song-info">
-          <h5>Tyler, the Creator</h5>
-          <h3>NOVEMBER</h3>
-        </div>
-        <div class="play-controller__btns">
-          <i class="fas fa-step-backward"></i>
-          <i class="fas fa-pause"></i>
-          <i class="fas fa-step-forward"></i>
-        </div>
+      <div class="play-now__song-info__text">
+        <h2>November</h2>
+        <h3>Tyler, The Creator</h3>
       </div>
-    </main>
+    </section>
 
-    <main></main>
-  </body>
+    <section class="play-now__music-controller">
+      <article class="play-now__music-controller__playing-bar">
+        <div class="play-now__music-controller__playing-bar__time">
+          <span class="play-now__music-controller__playing-bar__time__now">1:56</span>
+          <span class="play-now__music-controller__playing-bar__time__end">2:21</span>
+        </div>
+        <form class="play-now__music-controller__playing-bar__form">
+          <input type="range" class="play-now__music-controller__playing-bar__input" min="0" max="221" value="156"
+            step="1">
+        </form>
+      </article>
+
+      <article class="play-now__music-controller__btns">
+        <i class="fas fa-sync-alt"></i>
+        <i class="fas fa-step-backward"></i>
+        <div class="play-now__music-controller__btns__play">
+          <i class="fas fa-play"></i>
+        </div>
+        <i class="fas fa-step-forward"></i>
+        <i class="fas fa-random"></i>
+      </article>
+
+
+    </section>
+  </main>
+</body>
+
 </html>

@@ -1,0 +1,61 @@
+.play-now__music-controller {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.play-now__music-controller__playing-bar {
+  margin: 0px 35px;
+}
+
+.play-now__music-controller__playing-bar__time {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.3;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.play-now__music-controller__playing-bar__form {
+  color: teal;
+}
+
+.play-now__music-controller__playing-bar__input {
+  width: 300px;
+  background-color: aqua;
+  color: teal;
+}
+
+.play-now__music-controller__playing-bar__input ::[type="range" i] {
+  background-color: pink;
+  color: teal;
+}
+
+.play-now__music-controller__btns i:first-child,
+.play-now__music-controller__btns i:last-child {
+  opacity: 0.5;
+}
+
+.play-now__music-controller__btns {
+  margin: 60px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.play-now__music-controller__btns__play {
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-now__music-controller__btns__play i:first-child {
+  opacity: 1;
+}

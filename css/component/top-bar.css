@@ -1,4 +1,11 @@
-.top-bar {
+.list-menu__top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px;
+  margin-top: 45px;
+}
+
+.play-now__top-bar {
   display: flex;
   justify-content: space-between;
   margin: 0px 25px;

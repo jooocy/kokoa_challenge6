@@ -10,8 +10,12 @@
 @import "./component/play-controller.css";
 
 /* Screens */
-@import "./screens/singer-info.css";
-@import "./screens/play-list.css";
+@import "./screens/list-menu/play-list.css";
+@import "./screens/list-menu/singer-info.css";
+
+@import "./screens/play-now/song-info.css";
+@import "./screens/play-now/music-controller.css";
+
 * {
   box-sizing: border-box;
 }
